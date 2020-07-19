@@ -29,7 +29,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', function (req, res) {
-  res.send('Hello World from Azure Web App! new');
+  res.send('Hello World from Azure Web App! Primary');
 });
 app.get('/users', function (req, res) {
   res.send('Hello users');
